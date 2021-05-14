@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<VBox fx:controller="jarticle.controller.HomeController" prefWidth="375" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
+    <AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="288.0" prefWidth="702.0">
+        <children>
+            <TableView fx:id="tableView" layoutX="0" layoutY="0" prefHeight="200.0" prefWidth="702.0">
+                <columns>
+                    <TableColumn prefWidth="75.0" text="id" fx:id="id" />
+                    <TableColumn prefWidth="100.0" text="year" fx:id="year" />
+                    <TableColumn prefWidth="200.0" text="title" fx:id="title" />
+                    <TableColumn prefWidth="200.0" text="category" fx:id="category" />
+                    <TableColumn prefWidth="200.0" text="link" fx:id="link" />
+                </columns>
+            </TableView>
+        </children>
+    </AnchorPane>
+</VBox>
